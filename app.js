@@ -17,9 +17,9 @@ function agregarAmigo() {
         // limpio el cambo de texto
         // agrego un amigo a la lista
         nmNuevo.textContent = nm;
-
         document.getElementById("listaAmigos").appendChild(nmNuevo);
         document.getElementById("amigo").value = "";
+        document.getElementById("amigo").focus();
         //alert("AMIGO AGREGADO: " +
     } else {
         // mensaje de alerta si en el ingreso es vacio
@@ -44,6 +44,7 @@ function sorteo() {
         const titulo = document.getElementById("subtitulo");
         titulo.textContent = "EL AMIGO SECRETO ES: " + amigoSecreto;
         //alert("EL AMIGO SECRETO ES: " + amigoSecreto);
+        
 
     // limpio el arreglo de amigos
         amigos = [];

@@ -167,9 +167,9 @@ ul {
 /* Estilo para el ul con id listaAmigos */
 #listaAmigos {
     list-style-type: none; /* Elimina los marcadores predeterminados */
-    padding: 0; /* Elimina el padding predeterminado */
+    padding: 50px; /* Elimina el padding predeterminado */
     background-color: #ffffff; /* Fondo blanco */
-    padding: 20px; /* Relleno interno */
+    padding: 0px; /* Relleno interno */
 /*    border: 1px solid #dee2e6; /* Borde gris claro */
 /*    border-radius: 5px; /* Bordes redondeados */
 /*    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -177,15 +177,15 @@ ul {
 
 /* Estilo para los li dentro del ul con id listaAmigos */
 #listaAmigos li {
-    background-color: #f8f9fa; /* Fondo gris claro */
-    border: 1px solid #dee2e6; /* Borde gris */
+    background-color: #e8eef5; /* Fondo gris claro */
+/*    border: 1px solid #dee2e6; /* Borde gris */
     border-radius: 5px; /* Bordes redondeados */
     margin: 5px 0; /* Margen superior e inferior */
-    padding: 10px; /* Relleno interno */
+    padding: 0px; /* Relleno interno */
     font-family: Arial, sans-serif; /* Fuente */
     font-size: 16px; /* Tamaño de la fuente */
     color: #343a40; /* Color del texto */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+ /*   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     transition: background-color 0.3s ease-in-out; /* Transición suave */
 }
 
