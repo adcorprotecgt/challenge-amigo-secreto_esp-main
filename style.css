@@ -193,3 +193,40 @@ ul {
 #listaAmigos li:hover {
     background-color: #e2e6ea; /* Fondo gris más oscuro al pasar el ratón */
 }
+.menu {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos al centro */
+  }
+
+/*{
+    background-color: transparent;
+    text-align: center;
+}*/
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.menu i {
+    margin-right: 5px;
+}

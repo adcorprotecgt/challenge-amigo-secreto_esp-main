@@ -50,3 +50,15 @@ function sorteo() {
         amigos = [];
     }
 }
+
+// Opcional: Puedes agregar funcionalidad a los enlaces aquí
+const enlaces = document.querySelectorAll('.menu a');
+
+enlaces.forEach(enlace => {
+    enlace.addEventListener('click', (event) => {
+        event.preventDefault(); // Evita que los enlaces recarguen la página
+        const opcion = enlace.textContent.trim();
+        console.log(`Opción seleccionada: ${opcion}`);
+        // Aquí puedes agregar la lógica para cada opción del menú
+    });
+});
